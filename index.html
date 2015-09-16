@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+
+<head>
+<style>
+body {
+font-family: ariel;
+background-color: #e3e3e3;
+}
+.wrapper{
+width: 600px;
+margin: auto;
+}
+#someID{
+	font-family: cursive;
+	color: blue;
+}
+blockquote{
+border:1px solid white;
+text-align:center;
+margin-left: 0px;
+}
+header ul li{
+	display: inline;
+	padding: 10px;
+	text-decoration:none;
+}
+header ul li:hover{
+	text-decoration:underline;
+	font-size:20px;
+}
+</style>
+<link rel="post.php"/>
+</head>
+
+<body>
+	<header>
+		<ul>
+			<li> <a href="untitled text.html">About us</a> </li>
+			<li> <a href="#">History</a></li>
+			<li> <a href="#">Careers</a></li>
+			<li> <a href="#">Contact us</a></li>
+		</ul>
+	</header>
+	<div class="wrapper">
+	<h1>My First Website</h1>
+	<p>Welcome to my website! Here are some things I enjoy.</p>
+	<ul>
+		<li>Web Development</li>
+		<li>Chess</li>
+		<li>Reading</li>
+		<li>Learning</li>
+	</ul>
+	<h3> Favorite Quotes</h3>
+	<blockquote>
+		<p> Here is a favorite quote of mine</p>
+	</blockquote>
+	<blockquote>
+		<p>...and another one</p>
+	</blockquote>
+	</div>
+		<div id="someID">
+		<p>jkhkjhjk	</p>
+		</div>
+	<form action="post.php" method="POST">
+		<p>
+			<label for="firstName">First name:</label>
+			<input id="firstName" name="firstName"/>
+		</p>
+		<p>
+			<label for="lastName">Last name:</label>
+			<input id="lastName" name="lastName"/>
+		</p>
+		<br/>
+		<textarea></textarea>
+		<br/>
+		<input type="submit" value="Submit"/>
+		<br/>
+		<button onclick="sayHello()";>
+			Greet me!
+		</button>
+	</form>
+
+
+	<script src="javaS.js"></script>
+
+
+</body>
+
+</html>
